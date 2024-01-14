@@ -1,0 +1,22 @@
+.navi {
+    position: fixed;
+    display: flex;
+    width: 90%;
+
+}
+
+.navi .logo {
+    width: 40%;
+    background: blue;
+}
+
+.navi .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    background: rgb(255, 0, 51);
+}
+
+.navi .menu p {
+    margin: 0 auto;
+}
