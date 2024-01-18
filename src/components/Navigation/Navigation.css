@@ -1,22 +1,35 @@
-.navi {
-    position: fixed;
-    display: flex;
-    width: 90%;
+ .navi {
+     /* position: fixed; */
+     display: flex;
+     width: 100%;
+     height: 50px;
+     border-bottom: 1px solid black;
+     padding-top: 3%;
+     padding-left: 5%;
+     padding-right: 5%;
+ }
 
-}
 
-.navi .logo {
-    width: 40%;
-    background: blue;
-}
+ body {
+     margin: 0;
+     padding: 0;
+ }
 
-.navi .menu {
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    background: rgb(255, 0, 51);
-}
+ .navi .logo {
+     width: 40%;
+     font-family: 'Playfair Display', serif;
+     font-weight: bold;
+ }
 
-.navi .menu p {
-    margin: 0 auto;
-}
+ .navi .menu {
+     display: flex;
+     justify-content: space-between;
+     width: 55%;
+     font-family: brandon-grotesque, sans-serif;
+     font-style: normal;
+     font-weight: 100;
+ }
+
+ .navi .menu p {
+     margin: 0 auto;
+ }
