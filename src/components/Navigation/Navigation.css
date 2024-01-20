@@ -1,12 +1,12 @@
  .navi {
      /* position: fixed; */
      display: flex;
-     width: 100%;
-     height: 50px;
+     height: 163px;
      border-bottom: 1px solid black;
-     padding-top: 3%;
-     padding-left: 5%;
-     padding-right: 5%;
+     margin-left: 6%;
+     margin-right: 6%;
+     background: white;
+     z-index: 10;
  }
 
 
@@ -17,17 +17,29 @@
 
  .navi .logo {
      width: 40%;
-     font-family: 'Playfair Display', serif;
-     font-weight: bold;
+     color: #1E1E1E;
+     font-family: "Playfair Display";
+     font-size: 25px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     padding-top: 80px;
+     padding-bottom: 50px;
  }
 
  .navi .menu {
      display: flex;
      justify-content: space-between;
      width: 55%;
-     font-family: brandon-grotesque, sans-serif;
+     color: #1E1E1E;
+     font-family: "HvDTrial Brandon Grotesque";
+     font-size: 20px;
      font-style: normal;
-     font-weight: 100;
+     font-weight: 400;
+     line-height: normal;
+     text-transform: uppercase;
+     padding-top: 80px;
+     padding-bottom: 50px;
  }
 
  .navi .menu p {

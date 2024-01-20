@@ -1,26 +1,33 @@
 .hero {
-    padding-top: 100px;
     min-height: 100vh;
-    /* align-items: center; */
-    /* text-align: center; */
     flex-direction: column;
     justify-content: center;
+    padding-top: 237px;
 }
 
 .hero h2 {
-    font-size: regular;
-    font-family: 'Noto Sans Display', sans-serif;
-    font-weight: 800;
+    color: #000;
+    font-family: "SF Pro Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     text-align: center;
-    padding-right: 40%;
+    text-align: start;
+    padding-left: 22%;
 }
 
 .hero h3 {
-    font-size: thin;
-    color: #9f9f9f;
-    font-family: 'Noto Sans Display', sans-serif;
-    font-weight: 100;
-    text-align: center;
+
+
+    text-align: start;
+    padding-left: 22%;
+    color: #9F9F9F;
+    font-family: "SF Pro Display";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
 }
 
 .hero h3 span {
@@ -28,9 +35,7 @@
     padding-right: 31%;
 }
 
-.hero img.arrow {
+.hero .arrow {
+    padding-top: 180px;
     text-align: center;
-    margin: 0 auto;
-    display: block;
-    padding-top: 10%;
 }
