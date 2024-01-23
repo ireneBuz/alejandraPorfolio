@@ -1,9 +1,11 @@
+import React, { useRef } from "react";
 import "./Contact.css"
 
 const Contact = () => {
+    const contactRef = useRef();
     return (
         <>
-            <div className="contact">
+            <div className="contact" ref={contactRef}>
                 <div className="title">
                     <img src="/images/line.jpg" />
                     <h2> Contact</h2>

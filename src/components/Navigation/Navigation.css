@@ -2,11 +2,13 @@
      /* position: fixed; */
      display: flex;
      height: 163px;
-     margin-left: 6%;
-     margin-right: 6%;
-     background: white;
+     /* margin-left: 6%;
+     margin-right: 6%; */
+     background: #FFF;
      z-index: 10;
      justify-content: space-between;
+     /* padding: 80px 90px 50px 90px; */
+     /* align-items: center; */
  }
 
 
@@ -16,6 +18,8 @@
  }
 
  .navi .logo {
+     margin-left: 6%;
+     text-decoration: none;
      width: 40%;
      color: #1E1E1E;
      font-family: "Playfair Display";
@@ -28,10 +32,19 @@
  }
 
  .navi .menu {
+     margin-right: 6%;
      display: flex;
+     align-items: flex-end;
+     text-decoration: none;
      justify-content: space-between;
-     width: 55%;
+     width: 60%;
+     padding-top: 80px;
+     padding-bottom: 50px;
+ }
+
+ .navi .menu a {
      color: #1E1E1E;
+     gap: 144px;
      text-align: end;
      font-family: "HvDTrial Brandon Grotesque";
      font-size: 20px;
@@ -39,11 +52,15 @@
      font-weight: 400;
      line-height: normal;
      text-transform: uppercase;
-     padding-top: 80px;
-     padding-bottom: 50px;
+     transition: color 0.3s;
  }
 
- .navi .menu p,
+ .navi .menu a:hover {
+     color: #9F9F9F;
+ }
+
+ .navi .menu a,
  .navi .logo p {
-     margin: 0
+     margin: 0;
+     text-decoration: none;
  }

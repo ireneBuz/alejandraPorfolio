@@ -13,6 +13,7 @@
     color: #1E1E1E;
     font-family: "SF Pro Display";
     font-size: 4vw;
+    /* font-size: 4vw; */
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -23,7 +24,7 @@
     font-family: "SF Pro Display";
     font-size: 4vw;
     font-style: italic;
-    font-weight: 200;
+    /* font-weight: 200; */
     line-height: normal;
 }
 

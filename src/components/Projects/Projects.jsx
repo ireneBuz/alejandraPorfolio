@@ -1,12 +1,15 @@
+import React, { useRef } from "react";
 import ProjectCards from "../ProjectCards/ProjectCards"
 import "./Projects.css"
 import { projects } from "./../../utils/projects"
 
 
 const Projects = () => {
+    const projectsRef = useRef();
+
     return (
         <>
-            <div className="projects">
+            <div className="projects" ref={projectsRef}>
                 <div className="text">
                     <h2>Forging intuitive user <span>pathways</span></h2>
                 </div>
