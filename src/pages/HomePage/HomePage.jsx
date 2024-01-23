@@ -9,9 +9,15 @@ import "./HomePage.css"
 const HomePage = () => {
     return (
         <>
-            <Hero />
-            <Projects />
-            <Contact />
+            <div id="hero">
+                <Hero />
+            </div>
+            <div id="projects">
+                <Projects />
+            </div>
+            <div id="contact">
+                <Contact />
+            </div>
         </>
     )
 }

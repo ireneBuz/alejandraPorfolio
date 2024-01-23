@@ -2,11 +2,11 @@
      /* position: fixed; */
      display: flex;
      height: 163px;
-     border-bottom: 1px solid black;
      margin-left: 6%;
      margin-right: 6%;
      background: white;
      z-index: 10;
+     justify-content: space-between;
  }
 
 
@@ -32,6 +32,7 @@
      justify-content: space-between;
      width: 55%;
      color: #1E1E1E;
+     text-align: end;
      font-family: "HvDTrial Brandon Grotesque";
      font-size: 20px;
      font-style: normal;
@@ -42,6 +43,7 @@
      padding-bottom: 50px;
  }
 
- .navi .menu p {
-     margin: 0 auto;
+ .navi .menu p,
+ .navi .logo p {
+     margin: 0
  }

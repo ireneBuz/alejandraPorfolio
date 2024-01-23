@@ -1,0 +1,31 @@
+ .footer {
+     margin-top: 312px;
+     display: flex;
+     padding: 60px 100px;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .footer .name {
+     width: 30%;
+     color: #1E1E1E;
+     font-family: "SF Pro Display";
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+
+ .footer .links {
+     width: 300px;
+     display: flex;
+     justify-content: space-between;
+     color: #1E1E1E;
+     font-family: "SF Pro Display";
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+
+ .footer .links p {}

@@ -1,3 +1,68 @@
-.contact {
-    padding-top: 222.76px;
-}
+ .contact {
+     /* margin-top: 0; */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+ }
+
+ .title {
+     display: flex;
+     align-items: center;
+ }
+
+ .contact h2 {
+     display: flex;
+     align-items: center;
+     color: #B3B3B3;
+     font-family: "SF UI Display";
+     font-size: 48.308px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+
+ .contact h3 {
+     margin-top: 90px;
+     color: #000;
+     text-align: center;
+     font-family: "SF Pro Display";
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 29.441px;
+     /* 133.821% */
+ }
+
+ .contact h4 {
+     margin-top: 23px;
+     color: #000;
+     text-align: center;
+     font-family: "SF Pro Display";
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 29.441px;
+     /* 133.821% */
+ }
+
+
+
+ .contact span {
+     color: #1E1E1E;
+     font-family: "SF Pro Display";
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+ }
+
+ .contact img {
+
+     stroke-width: 1px;
+     stroke: #B3B3B3;
+     margin: 0 57.37px;
+     width: 467.986px;
+     height: 1px;
+     flex-shrink: 0;
+ }

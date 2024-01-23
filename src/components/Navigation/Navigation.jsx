@@ -5,7 +5,7 @@ const Navigation = () => {
         <>
             <div className="navi">
                 <div className="logo">
-                    amg.
+                    <p>amg.</p>
                 </div>
                 <div className="menu">
                     <p>Projects</p>

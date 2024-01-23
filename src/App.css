@@ -1,8 +1,9 @@
 #root {
   max-width: 1512px;
+  margin: 0 auto;
 }
 
-/* .container {
-  padding-right: 30px;
-  padding-left: 5%;
-} */
+.container {
+  /* padding-right: 30px;
+  padding-left: 5%; */
+}
