@@ -14,7 +14,6 @@
     flex-shrink: 0;
 }
 
-.bioInfo {}
 
 .bio h2 {
     margin: 0;
@@ -42,7 +41,6 @@
     align-self: stretch;
     width: 850px;
     height: 242px;
-    /* overflow: hidden; */
     flex: 1 0 0;
     align-self: stretch;
 

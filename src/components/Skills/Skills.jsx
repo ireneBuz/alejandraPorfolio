@@ -8,26 +8,55 @@ const Skills = () => {
                     <h2>Get to know me a little more</h2>
                     <img src="/images/Vector.jpg" alt="arrow photo" />
                 </div>
-                <div className="softSkills">
-                    <h2>soft skills</h2>
-                    <p>Organised</p>
-                    <p>Resourceful</p>
-                    <p>Teamworker</p>
-                    <p>Empathy</p>
-                    <p>Analytical</p>
-                    <p>Communication Skills</p>
+
+                <div className="softTitle">
+                    <h2>softs skills</h2>
                 </div>
-                <div className="hardSkills">
-                    <h2>hard skills</h2>
-                    <p>UX Research</p>
-                    <p>Prototyping</p>
-                    <p>Project Management</p>
-                    <p>UI Design</p>
-                    <p>Product Strategy</p>
-                    <p> Marketing Strategy</p>
+                <div className="softSkills">
+                    <div className="columnSoft">
+                        <p>Organised</p>
+                        <img src="/images/line.jpg" />
+                        <p>Resourceful</p>
+                        <img src="/images/line.jpg" />
+                        <p>Teamworker</p>
+                        <img src="/images/line.jpg" />
+                    </div>
+                    <div className="columnSoft">
+                        <p>Empathy</p>
+                        <img src="/images/line.jpg" />
+                        <p>Analytical</p>
+                        <img src="/images/line.jpg" />
+                        <p>Communication Skills</p>
+                        <img src="/images/line.jpg" />
+                    </div>
+                </div>
+                <div className="hardBackground">
+                    <div className="hardTitle">
+                        <h2>hard skills</h2>
+                    </div>
+                    <div className="hardSkills">
+                        <div className="columnHard">
+                            <p>UX Research</p>
+                            <img src="/images/line.jpg" />
+                            <p>Prototyping</p>
+                            <img src="/images/line.jpg" />
+                            <p>Project Management</p>
+                            <img src="/images/line.jpg" />
+                        </div>
+                        <div className="columnHard">
+                            <p>UI Design</p>
+                            <img src="/images/line.jpg" />
+                            <p>Product Strategy</p>
+                            <img src="/images/line.jpg" />
+                            <p> Marketing Strategy</p>
+                            <img src="/images/line.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div className="toolsTitle">
+                    <h2>tools i use </h2>
                 </div>
                 <div className="tools">
-                    <h2>tools i use </h2>
                     <p>Figma</p>
                     <p>Sketch</p>
                     <p>Adobe Illustrator</p>
