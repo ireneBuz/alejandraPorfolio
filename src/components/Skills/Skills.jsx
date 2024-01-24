@@ -8,26 +8,27 @@ const Skills = () => {
                     <h2>Get to know me a little more</h2>
                     <img src="/images/Vector.jpg" alt="arrow photo" />
                 </div>
-
-                <div className="softTitle">
-                    <h2>softs skills</h2>
-                </div>
-                <div className="softSkills">
-                    <div className="columnSoft">
-                        <p>Organised</p>
-                        <img src="/images/line.jpg" />
-                        <p>Resourceful</p>
-                        <img src="/images/line.jpg" />
-                        <p>Teamworker</p>
-                        <img src="/images/line.jpg" />
+                <div className="softBackground">
+                    <div className="softTitle">
+                        <h2>softs skills</h2>
                     </div>
-                    <div className="columnSoft">
-                        <p>Empathy</p>
-                        <img src="/images/line.jpg" />
-                        <p>Analytical</p>
-                        <img src="/images/line.jpg" />
-                        <p>Communication Skills</p>
-                        <img src="/images/line.jpg" />
+                    <div className="softSkills">
+                        <div className="columnSoft">
+                            <p>Organised</p>
+                            <img src="/images/line.jpg" />
+                            <p>Resourceful</p>
+                            <img src="/images/line.jpg" />
+                            <p>Teamworker</p>
+                            <img src="/images/line.jpg" />
+                        </div>
+                        <div className="columnSoft">
+                            <p>Empathy</p>
+                            <img src="/images/line.jpg" />
+                            <p>Analytical</p>
+                            <img src="/images/line.jpg" />
+                            <p>Communication Skills</p>
+                            <img src="/images/line.jpg" />
+                        </div>
                     </div>
                 </div>
                 <div className="hardBackground">
@@ -55,18 +56,23 @@ const Skills = () => {
                 </div>
                 <div className="toolsTitle">
                     <h2>tools i use </h2>
+                    <img src="/images/blackLine.png" alt="black line" />
                 </div>
                 <div className="tools">
-                    <p>Figma</p>
-                    <p>Sketch</p>
-                    <p>Adobe Illustrator</p>
-                    <p>Notion</p>
-                    <p>Jira</p>
-                    <p>Google Anlytics & Google Ads</p>
-                    <p>Visual Studio Code</p>
-                    <p>HTML & CSS</p>
-                    <p>Wordpress</p>
-                    <p>Salesforce</p>
+                    <div className="columnTools">
+                        <p>Figma</p>
+                        <p>Sketch</p>
+                        <p>Adobe Illustrator</p>
+                        <p>Notion</p>
+                        <p>Jira</p>
+                        <p>Google Anlytics & Google Ads</p>
+                    </div>
+                    <div className="columnTools">
+                        <p>Visual Studio Code</p>
+                        <p>HTML & CSS</p>
+                        <p>Wordpress</p>
+                        <p>Salesforce</p>
+                    </div>
                 </div>
 
             </div></>
