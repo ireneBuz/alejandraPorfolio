@@ -1,6 +1,6 @@
 .bio {
     display: flex;
-    width: 1218.523px;
+    /* width: 1218.523px; */
     align-items: flex-start;
     gap: 55px;
     margin-left: 10%;
@@ -9,9 +9,12 @@
 }
 
 .bio .foto {
-    width: 313.523px;
-    height: 384px;
+    width: 17vw;
     flex-shrink: 0;
+}
+
+.bio .foto img {
+    width: 100%;
 }
 
 
@@ -19,7 +22,7 @@
     margin: 0;
     color: #1E1E1E;
     font-family: "SF Pro Display";
-    font-size: 40px;
+    font-size: 2.2vw;
     font-style: normal;
     font-weight: 500;
     line-height: 139.336%;
@@ -33,13 +36,12 @@
 .bio p {
     color: #1E1E1E;
     font-family: "SF UI Display";
-    font-size: 20px;
+    font-size: 1.1vw;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     flex: 1 0 0;
     align-self: stretch;
-    width: 850px;
     height: 242px;
     flex: 1 0 0;
     align-self: stretch;

@@ -15,19 +15,19 @@ const Skills = () => {
                     <div className="softSkills">
                         <div className="columnSoft">
                             <p>Organised</p>
-                            <img src="/images/line.jpg" />
+                            <img src="/images/line2.svg" />
                             <p>Resourceful</p>
-                            <img src="/images/line.jpg" />
+                            <img src="/images/line2.svg" />
                             <p>Teamworker</p>
-                            <img src="/images/line.jpg" />
+                            <img src="/images/line2.svg" />
                         </div>
                         <div className="columnSoft">
                             <p>Empathy</p>
-                            <img src="/images/line.jpg" />
+                            <img src="/images/line2.svg" />
                             <p>Analytical</p>
-                            <img src="/images/line.jpg" />
+                            <img src="/images/line2.svg" />
                             <p>Communication Skills</p>
-                            <img src="/images/line.jpg" />
+                            <img src="/images/line2.svg" />
                         </div>
                     </div>
                 </div>
@@ -38,44 +38,47 @@ const Skills = () => {
                     <div className="hardSkills">
                         <div className="columnHard">
                             <p>UX Research</p>
-                            <img src="/images/line.jpg" />
+                            <img src="/images/line2.svg" />
                             <p>Prototyping</p>
-                            <img src="/images/line.jpg" />
+                            <img src="/images/line2.svg" />
                             <p>Project Management</p>
-                            <img src="/images/line.jpg" />
+                            <img src="/images/line2.svg" />
                         </div>
                         <div className="columnHard">
                             <p>UI Design</p>
-                            <img src="/images/line.jpg" />
+                            <img src="/images/line2.svg" />
                             <p>Product Strategy</p>
-                            <img src="/images/line.jpg" />
+                            <img src="/images/line2.svg" />
                             <p> Marketing Strategy</p>
-                            <img src="/images/line.jpg" />
+                            <img src="/images/line2.svg" />
                         </div>
                     </div>
                 </div>
-                <div className="toolsTitle">
-                    <h2>tools i use </h2>
-                    <img src="/images/blackLine.png" alt="black line" />
-                </div>
-                <div className="tools">
-                    <div className="columnTools">
-                        <p>Figma</p>
-                        <p>Sketch</p>
-                        <p>Adobe Illustrator</p>
-                        <p>Notion</p>
-                        <p>Jira</p>
-                        <p>Google Anlytics & Google Ads</p>
+                <div className="toolsBackground">
+                    <div className="toolsTitle">
+                        <h2>tools i use </h2>
+                        {/* <img src="/images/blackLine.png" alt="black line" /> */}
                     </div>
-                    <div className="columnTools">
-                        <p>Visual Studio Code</p>
-                        <p>HTML & CSS</p>
-                        <p>Wordpress</p>
-                        <p>Salesforce</p>
+                    <div className="tools">
+                        <div className="columnTools">
+                            <p>Figma</p>
+                            <p>Sketch</p>
+                            <p>Adobe Illustrator</p>
+                            <p>Notion</p>
+                            <p>Jira</p>
+                            <p>Google Anlytics & Google Ads</p>
+                        </div>
+                        <div className="columnTools">
+                            <p>Visual Studio Code</p>
+                            <p>HTML & CSS</p>
+                            <p>Wordpress</p>
+                            <p>Salesforce</p>
+                        </div>
                     </div>
                 </div>
 
-            </div></>
+            </div>
+        </>
     )
 }
 export default Skills
