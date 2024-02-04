@@ -8,7 +8,7 @@
 
 .hero h2 {
     color: #000;
-    font-family: "SF Pro Display";
+    font-family: regularSfProDisplay;
     font-size: 50px;
     font-style: normal;
     font-weight: 400;
@@ -20,13 +20,11 @@
 }
 
 .hero h3 {
-
-
     text-align: start;
     padding-left: 22%;
     padding-right: 16%;
     color: #9F9F9F;
-    font-family: "SF Pro Display";
+    font-family: superThinSfProDisplay;
     font-size: 35px;
     font-style: normal;
     font-weight: 200;
