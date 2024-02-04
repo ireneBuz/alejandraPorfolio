@@ -1,4 +1,4 @@
-import "./Aboutpage.css"
+// import "./Aboutpage.css"
 import Bio from "../../components/Bio/Bio"
 import Skills from "../../components/Skills/Skills"
 import AboutContact from "../../components/AboutContact/AboutContact"
