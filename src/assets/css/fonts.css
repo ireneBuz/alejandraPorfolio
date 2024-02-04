@@ -9,21 +9,3 @@
     src: url('./../fonts/thinBrandomGrotesque.otf') format('opentype');
     font-display: block;
 }
-
-@font-face {
-    font-family: 'regularSfProDisplay';
-    src: url('./../fonts/regularSfProDisplay') format('opentype');
-    font-display: block;
-}
-
-@font-face {
-    font-family: 'thinSfProDisplay';
-    src: url('./../fonts/thinSfProDisplay') format('opentype');
-    font-display: block;
-}
-
-@font-face {
-    font-family: 'superThinSfProDisplay';
-    src: url('./../fonts/superThinSfProDisplay') format('opentype');
-    font-display: block;
-}

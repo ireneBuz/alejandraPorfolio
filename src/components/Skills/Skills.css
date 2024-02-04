@@ -16,7 +16,7 @@
     margin-bottom: 126.73px;
     margin-bottom: 7.2vw;
     color: #000;
-    font-family: "SF Pro Display";
+    /* font-family: "SF Pro Display"; */
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -42,7 +42,7 @@
     height: 50px;
     text-transform: uppercase;
     color: #1E1E1E;
-    font-family: "HvDTrial Brandon Grotesque";
+    /* font-family: "HvDTrial Brandon Grotesque"; */
     font-size: 1.9vw;
     font-style: normal;
     font-weight: 400;
@@ -79,7 +79,7 @@
 .columnHard p {
     margin-bottom: 0;
     color: #000;
-    font-family: "SF Pro Display";
+    /* font-family: "SF Pro Display"; */
     font-size: 1.6vw;
     font-style: normal;
     font-weight: 400;
@@ -105,7 +105,7 @@
     height: 50px;
     text-transform: uppercase;
     color: #1E1E1E;
-    font-family: "HvDTrial Brandon Grotesque";
+    /* font-family: "HvDTrial Brandon Grotesque"; */
     font-size: 1.9vw;
     font-style: normal;
     font-weight: 400;
@@ -115,7 +115,7 @@
 .columnTools p {
     margin-bottom: 23px;
     color: #000;
-    font-family: "SF Pro Display";
+    /* font-family: "SF Pro Display"; */
     font-size: 1.6vw;
     font-style: normal;
     font-weight: 400;

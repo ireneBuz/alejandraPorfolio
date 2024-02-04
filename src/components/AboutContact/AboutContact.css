@@ -8,7 +8,7 @@
 .infoTitle {
     margin-top: 289px;
     color: #000;
-    font-family: "SF Pro Display";
+    /* font-family: "SF Pro Display"; */
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -18,7 +18,7 @@
 .thanksTitle h2 {
     margin-top: 65px;
     color: #000;
-    font-family: "SF Pro Display";
+    /* font-family: "SF Pro Display"; */
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -28,7 +28,7 @@
 .thanksTitle p {
     margin-top: 20px;
     color: #000;
-    font-family: "SF Pro Display";
+    /* font-family: "SF Pro Display"; */
     font-size: 25px;
     font-style: italic;
     font-weight: 300;
